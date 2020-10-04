@@ -1,0 +1,107 @@
+.backgorund{
+  width: auto;
+  height: 100%;
+  background: rgb(248,249,254); 
+  background: linear-gradient(to bottom, #F8F9FE 0%, #F8F9FE 25%,#ffffff 25%, #ffffff 100%);
+  border-radius: 0 0 15px 15px;
+  padding: 0;
+  margin: 0;
+}
+/* top title section */
+.top-title{
+
+margin: 0 15% 0 15%;
+
+}
+
+.continor{
+  display: flex;
+  margin: 5% auto 5% auto;
+}
+.card{
+  flex :1 ;
+  background-color: #f0f3fa;
+  margin: 0 3% 0 0 ;
+  padding: 1% 6% 1% 6%;
+  border-radius: 10px 10px 10px 10px;
+  justify-content: center;
+  text-align: center;
+}
+.top{
+  display: flex;
+}
+.bottom{
+  display: flex;
+}
+
+.up-img{
+  height: 20%;
+  width: auto;
+  padding: 25% 3% 0 0 ;
+}
+
+.up{
+  color: #33cc99;
+}
+
+.down{
+  color: red;
+}
+
+.icon-img{
+  padding: 15% 3% 0 3%;
+  width: auto;
+  height: 15%;
+  font-size: 1rem;
+}
+
+/* bottom grid section */
+
+.title-bottom{
+  margin: 0 15% 0 15%;
+
+}
+
+.grid-box{
+  margin: 0 15% 0 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "facebook-views facebook-likes insta-likes insta-views"
+    "retwetss-twitter twitter-likes youtube-likes youtube-views";
+}
+.facebook-views { grid-area: facebook-views; }
+.facebook-likes { grid-area: facebook-likes; }
+.insta-likes { grid-area: insta-likes; }
+.insta-views { grid-area: insta-views; }
+.retwetss-twitter { grid-area: retwetss-twitter; }
+.twitter-likes { grid-area: twitter-likes; }
+.youtube-likes { grid-area: youtube-likes; }
+.youtube-views { grid-area: youtube-views; }
+
+.card2{
+  display:inline-block;
+  background-color: #f0f3fa;
+  margin: 3% 3% 0 0 ;
+  padding: 1% 6% 1% 6%;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+}
+.up-1{
+  height: 20%;
+  width: auto;
+}
+.top-card{
+  display: flex;
+}
+.bottom{
+  display: flex;
+}
+
+.img-icon1{
+  width: auto;
+  height: 15%;
+  padding: 10% 0 0 50%;
+}
